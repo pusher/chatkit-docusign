@@ -28,7 +28,7 @@ const CHATKIT_INSTANCE_LOCATOR = 'YOUR_CHATKIT_INSTANCE_LOCATOR';
 const CHATKIT_SECRET_KEY = 'YOUR_CHATKIT_SECRET_KEY';
 
 const CHATKIT_INSTANCE_ID = CHATKIT_INSTANCE_LOCATOR.split(':')[2];
-const CHATKIT_API_URL = `https://us1.pusherplatform.io/services/chatkit/v1/${CHATKIT_INSTANCE_ID}`;
+const CHATKIT_API_URL = `https://us1.pusherplatform.io/services/chatkit/v2/${CHATKIT_INSTANCE_ID}`;
 
 // User info (must match the users registered in Chatkit)
 const users = [
