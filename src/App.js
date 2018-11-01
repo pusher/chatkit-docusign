@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import UsernameForm from './components/UsernameForm'
 import ChatScreen from './ChatScreen'
-import Chatkit from '@pusher/chatkit'
+import Chatkit from '@pusher/chatkit-client'
 
 const CHATKIT_INSTANCE_LOCATOR = 'YOUR_CHATKIT_INSTANCE_LOCATOR';
 const SERVER_URL = 'http://localhost:3001';

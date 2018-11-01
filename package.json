@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@pusher/chatkit": "^0.7.18",
+    "@pusher/chatkit-client": "^1.0.2",
     "@pusher/chatkit-server": "^0.12.2",
     "cors": "^2.8.4",
     "docusign-esign": "^4.0.2",
